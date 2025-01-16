@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("Assets/image/bg.jpg");
+  height: 90vh;
+  background-position: center center;
+  background-size: max(1200px, 120vw);
+  position: relative;
+}
+.main .box {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.54;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  max-width: 70vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 62px;
+}
+
+nav img {
+  color: red;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.main .eng {
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  background-color: rgb(23, 23, 23, 0.2);
+  border-color: black;
+  border-radius: 5px;
+  margin-right: 7px;
+}
+.main .sign {
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(222, 32, 32);
+  border-radius: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contain {
+  color: white;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 65px;
+}
+
+.main h6 {
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.btn.get {
+  padding: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: rgb(205, 28, 28);
+  color: white;
+  border-radius: 6px;
+  border-color: rgb(220, 27, 27);
+  padding-bottom: 10px;
+  
+}
+
+.main input {
+  padding: 16px;
+  padding-left: 15px;
+  padding-right: 45px;
+  background-color: rgb(23, 23, 23, 0.2);
+  color: rgb(104, 100, 100);
+  border-radius: 6px;
+  border-color: solid rgb(242, 246, 250);
+  
+}
+
+.separation {
+  height: 6px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 15;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  
+}
+
+.first .tv {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h4 {
+  font-size: 10px;
+}
+
+.first .para {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  
+  
+}
+
+.first .para1 {
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-top: 20px;
+}
+
+.first img{
+    height: 300px;
+margin-bottom: 30px;
+margin-top: 10px;
+
+
+}
+.secImg {
+  position: relative;
+  margin-right: 20px;
+}
+
+.secImg img {
+  width: 30vw;
+  position: relative;
+  z-index: 20px;
+  margin-bottom: 30px;
+  margin-left: 185px;
+
+}
+.secImg video {
+  position: absolute;
+  margin-top: 60px;
+  right: 20px;
+margin-bottom: 10px;
+width: 300px;
+margin-left: 50px;
+  
+}
+
+.ask h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+.faqbox {
+  display: flex;
+  color: white;
+  background-color: rgb(72, 69, 69);
+  padding: 8px;
+  margin: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all;
+}
+.faqbox div {
+  padding-top: 6px;
+}
+
+.faqbox:hover {
+  background-color: gray;
+}
+
+.faqbox svg {
+  filter: invert(1);
+}
+
+.contain input{
+    padding: 16px;
+    padding-top: 20px;
+    padding-right: 25px;
+    background-color: rgb(23, 23, 23, 0.2);
+    color: rgb(104, 100, 100);
+    border-radius: 6px;
+    border-color: solid rgb(242, 246, 250);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+}
+
+.contain h6 {
+  font-size: 12px;
+  font-weight: 1;
+  padding-bottom: 20px;
+}
+
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 30px;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.footer questions {
+  font-style: none;
+  color: white;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+ 
+}
+.footer-item a {
+  color: white;
+  text-decoration: none;
+  padding-top: 60px;
+  font-family:sans-serif;
+  
+ 
+}
+
+@media screen and (max-width:1200px){
+  .first{
+    flex-wrap: wrap;
+  }
+  
+}
+
+
